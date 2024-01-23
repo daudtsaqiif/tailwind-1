@@ -895,6 +895,18 @@ video {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+.first-letter\:float-start::first-letter {
+  float: inline-start;
+}
+
+.first-letter\:float-left::first-letter {
+  float: left;
+}
+
+.first-letter\:m-3::first-letter {
+  margin: 0.75rem;
+}
+
 .first-letter\:text-7xl::first-letter {
   font-size: 4.5rem;
   line-height: 1;
