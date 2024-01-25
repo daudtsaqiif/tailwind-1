@@ -778,6 +778,14 @@ video {
   max-width: 32rem;
 }
 
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.max-w-6xl {
+  max-width: 72rem;
+}
+
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1289,6 +1297,14 @@ video {
 
 .decoration-sky-700 {
   text-decoration-color: #0369a1;
+}
+
+.decoration-pink-400 {
+  text-decoration-color: #f472b6;
+}
+
+.decoration-purple-600 {
+  text-decoration-color: #9333ea;
 }
 
 .decoration-double {
