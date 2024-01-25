@@ -740,6 +740,10 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .size-2\/4 {
   width: 50%;
   height: 50%;
@@ -867,6 +871,16 @@ video {
 .rounded-t-full {
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
+}
+
+.rounded-l {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.rounded-l-full {
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
 }
 
 .rounded-tr-full {
@@ -1425,11 +1439,27 @@ video {
     order: 2;
   }
 
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:max-w-lg {
     max-width: 32rem;
   }
 
   .lg\:max-w-sm {
     max-width: 24rem;
+  }
+
+  .lg\:max-w-full {
+    max-width: 100%;
   }
 }
